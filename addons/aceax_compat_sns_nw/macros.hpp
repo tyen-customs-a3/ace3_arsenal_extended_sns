@@ -5,133 +5,141 @@
  */
 
 // UNIFORMS
-#define DEFINE_U_BDU(classname, faction, camo, style, sleeves, gas, gloves, kneepads) \
-    class classname { \
+#define DEFINE_U_BDU(classname_, faction_, camo_, style_, sleeves_, gas_, gloves_, kneepads_) \
+    class classname_ { \
         model = "sns_nw_u_bdu"; \
-        faction = faction; \
-        camo = camo; \
-        style = style; \
-        sleeves = sleeves; \
-        gasmask = gas; \
-        gloves = gloves; \
-        kneepads = kneepads; \
+        faction = faction_; \
+        camo = camo_; \
+        style = style_; \
+        sleeves = sleeves_; \
+        gasmask = gas_; \
+        gloves = gloves_; \
+        kneepads = kneepads_; \
     };
 
-#define DEFINE_U_JACKET(classname, j_camo, u_camo, gas) \
-    class classname { \
+#define DEFINE_U_JACKET(classname_, j_camo_, u_camo_, gas_) \
+    class classname_ { \
         model = "sns_nw_u_jacket"; \
-        jacket_camo = j_camo; \
-        uniform_camo = u_camo; \
-        gasmask = gas; \
+        jacket_camo = j_camo_; \
+        uniform_camo = u_camo_; \
+        gasmask = gas_; \
     };
 
-#define DEFINE_U_DNCE(classname, pants) \
-    class classname { \
+#define DEFINE_U_DNCE(classname_, pants_) \
+    class classname_ { \
         model = "sns_nw_u_dnce"; \
-        pants_camo = pants; \
+        pants_camo = pants_; \
     };
 
-#define DEFINE_U_CIV(classname, shirt_color, pants_color, sleeves, tucked) \
-    class classname { \
+#define DEFINE_U_CIV(classname_, shirt_color_, pants_color_, sleeves_, tucked_) \
+    class classname_ { \
         model = "sns_nw_u_civ"; \
-        shirt = shirt_color; \
-        pants = pants_color; \
-        sleeves = sleeves; \
-        tucked = tucked; \
+        shirt = shirt_color_; \
+        pants = pants_color_; \
+        sleeves = sleeves_; \
+        tucked = tucked_; \
     };
 
-#define DEFINE_U_CDO(classname, pants_camo, sleeves, tucked) \
-    class classname { \
+#define DEFINE_U_CDO(classname_, pants_camo_, sleeves_, tucked_) \
+    class classname_ { \
         model = "sns_nw_u_cdo"; \
-        pants = pants_camo; \
-        sleeves = sleeves; \
-        tucked = tucked; \
+        pants = pants_camo_; \
+        sleeves = sleeves_; \
+        tucked = tucked_; \
     };
 
 // VESTS
-#define DEFINE_V_ALICE(classname, type, loadout, attachments) \
-    class classname { \
+#define DEFINE_V_ALICE(classname_, type_, loadout_, attachments_) \
+    class classname_ { \
         model = "sns_nw_v_alice"; \
-        type = type; \
-        loadout = loadout; \
-        attachments = attachments; \
+        type = type_; \
+        loadout = loadout_; \
+        attachments = attachments_; \
     };
 
-#define DEFINE_V_PASGT(classname, camo, webbing, loadout) \
-    class classname { \
+#define DEFINE_V_PASGT(classname_, camo_, webbing_, loadout_) \
+    class classname_ { \
         model = "sns_nw_v_pasgt"; \
-        camo = camo; \
-        webbing = webbing; \
-        loadout = loadout; \
+        camo = camo_; \
+        webbing = webbing_; \
+        loadout = loadout_; \
     };
 
-#define DEFINE_V_LBV88(classname, belt, loadout) \
-    class classname { \
+#define DEFINE_V_LBV88(classname_, belt_, loadout_) \
+    class classname_ { \
         model = "sns_nw_v_lbv88"; \
-        belt = belt; \
-        loadout = loadout; \
+        belt = belt_; \
+        loadout = loadout_; \
     };
 
-#define DEFINE_V_RBA(classname, webbing, loadout) \
-    class classname { \
+#define DEFINE_V_RBA(classname_, webbing_, loadout_) \
+    class classname_ { \
         model = "sns_nw_v_rba"; \
-        webbing = webbing; \
-        loadout = loadout; \
+        webbing = webbing_; \
+        loadout = loadout_; \
     };
 
-#define DEFINE_V_FAUF(classname, belt, loadout) \
-    class classname { \
+#define DEFINE_V_FAUF(classname_, belt_, loadout_) \
+    class classname_ { \
         model = "sns_nw_v_fauf"; \
-        belt = belt; \
-        loadout = loadout; \
+        belt = belt_; \
+        loadout = loadout_; \
     };
 
-#define DEFINE_V_AWS(classname, base, loadout) \
-    class classname { \
+#define DEFINE_V_AWS(classname_, base_, loadout_) \
+    class classname_ { \
         model = "sns_nw_v_aws"; \
-        base_vest = base; \
-        loadout = loadout; \
+        base_vest = base_; \
+        loadout = loadout_; \
     };
 
 // HEADGEAR
-#define DEFINE_H_PASGT(classname, cover, band, scrim, goggles, nvg) \
-    class classname { \
+#define DEFINE_H_PASGT(classname_, cover_, band_, scrim_, goggles_, nvg_) \
+    class classname_ { \
         model = "sns_nw_h_pasgt"; \
-        cover = cover; \
-        band = band; \
-        scrim = scrim; \
-        goggles = goggles; \
-        nvg = nvg; \
+        cover = cover_; \
+        band = band_; \
+        scrim = scrim_; \
+        goggles = goggles_; \
+        nvg = nvg_; \
     };
 
-#define DEFINE_H_M1(classname, cover, band, accessories, rank) \
-    class classname { \
+#define DEFINE_H_M1(classname_, cover_, band_, accessories_, rank_) \
+    class classname_ { \
         model = "sns_nw_h_m1"; \
-        cover = cover; \
-        band = band; \
-        accessories = accessories; \
-        rank = rank; \
+        cover = cover_; \
+        band = band_; \
+        accessories = accessories_; \
+        rank = rank_; \
     };
 
-#define DEFINE_H_BOONIE(classname, camo, style) \
-    class classname { \
+#define DEFINE_H_BOONIE(classname_, camo_, style_) \
+    class classname_ { \
         model = "sns_nw_h_boonie"; \
-        camo = camo; \
-        style = style; \
+        camo = camo_; \
+        style = style_; \
     };
 
-#define DEFINE_H_PATROL(classname, camo) \
-    class classname { \
+#define DEFINE_H_PATROL(classname_, camo_) \
+    class classname_ { \
         model = "sns_nw_h_patrolcap"; \
-        camo = camo; \
+        camo = camo_; \
     };
 
-#define DEFINE_H_PROTEC(classname, type, nvg, headset, strobe, goggles) \
-    class classname { \
+#define DEFINE_H_PROTEC(classname_, type_, nvg_, headset_, strobe_, goggles_) \
+    class classname_ { \
         model = "sns_nw_h_protec"; \
-        type = type; \
-        nvg_mount = nvg; \
-        headset = headset; \
-        strobe = strobe; \
-        goggles = goggles; \
+        type = type_; \
+        nvg_mount = nvg_; \
+        headset = headset_; \
+        strobe = strobe_; \
+        goggles = goggles_; \
+    };
+
+#define DEFINE_B_ALICE(classname_, color_, frame_, type_) \
+    class classname_ { \
+        model = "sns_nw_b_alice"; \
+        color = color_; \
+        frame = frame_; \
+        type = type_; \
     };

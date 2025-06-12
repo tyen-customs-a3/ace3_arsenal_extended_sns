@@ -4,127 +4,128 @@
  * ===================================================================================================================================
  */
 
+
 // ===================================================================================================================================
 // UNIFORM MACROS
 // ===================================================================================================================================
 
-#define DEFINE_U_OG107(classname, gen, slv, tuck, glv, gas) \
-    class classname { \
+#define DEFINE_U_OG107(classname_, gen_, slv_, tuck_, glv_, gas_) \
+    class classname_ { \
         model = "sns_u_og107"; \
-        generation = gen; \
-        sleeves = slv; \
-        tucked = tuck; \
-        gloves = glv; \
-        gasmask = gas; \
+        generation = gen_; \
+        sleeves = slv_; \
+        tucked = tuck_; \
+        gloves = glv_; \
+        gasmask = gas_; \
     };
 
-#define DEFINE_U_TCU(classname, gen, slv, pants, glv) \
-    class classname { \
+#define DEFINE_U_TCU(classname_, gen_, slv_, pants_, glv_) \
+    class classname_ { \
         model = "sns_u_tcu"; \
-        generation = gen; \
-        sleeves = slv; \
-        pants = pants; \
-        gloves = glv; \
+        generation = gen_; \
+        sleeves = slv_; \
+        pants = pants_; \
+        gloves = glv_; \
     };
-
-#define DEFINE_U_MC_TCU(classname, gen, slv, pants, glv) \
-    class classname { \
+    
+#define DEFINE_U_MC_TCU(classname_, gen_, slv_, pants_, glv_) \
+    class classname_ { \
         model = "sns_u_mc_tcu"; \
-        generation = gen; \
-        sleeves = slv; \
-        pants = pants; \
-        gloves = glv; \
+        generation = gen_; \
+        sleeves = slv_; \
+        pants = pants_; \
+        gloves = glv_; \
     };
 
-#define DEFINE_U_ERDL(classname, pat, shirt, pants, glv) \
-    class classname { \
+#define DEFINE_U_ERDL(classname_, pat_, shirt_, pants_, glv_) \
+    class classname_ { \
         model = "sns_u_erdl"; \
-        pattern = pat; \
-        shirt = shirt; \
-        pants = pants; \
-        gloves = glv; \
+        pattern = pat_; \
+        shirt = shirt_; \
+        pants = pants_; \
+        gloves = glv_; \
     };
-
-#define DEFINE_U_TIGER_STRIPE(classname, type, slv, tuck) \
-    class classname { \
+    
+#define DEFINE_U_TIGER_STRIPE(classname_, type_, slv_, tuck_) \
+    class classname_ { \
         model = "sns_u_tiger_stripe"; \
-        type = type; \
-        sleeves = slv; \
-        tucked = tuck; \
+        type = type_; \
+        sleeves = slv_; \
+        tucked = tuck_; \
     };
 
-#define DEFINE_U_RAIN_PARKA(classname, camo_val, gas_val) \
-    class classname { \
+#define DEFINE_U_RAIN_PARKA(classname_, camo_, gasmask_) \
+    class classname_ { \
         model = "sns_u_rain_parka"; \
-        camo = camo_val; \
-        gasmask = gas_val; \
+        camo = camo_; \
+        gasmask = gasmask_; \
     };
 
-#define DEFINE_U_M65_JACKET(classname, camo_val, pants_val, glv) \
-    class classname { \
+#define DEFINE_U_M65_JACKET(classname_, camo_, pants_, glv_) \
+    class classname_ { \
         model = "sns_u_m65_jacket"; \
-        camo = camo_val; \
-        pants = pants_val; \
-        gloves = glv; \
+        camo = camo_; \
+        pants = pants_; \
+        gloves = glv_; \
     };
 
-#define DEFINE_U_BDU(classname, camo_val, style_val, slv) \
-    class classname { \
+#define DEFINE_U_BDU(classname_, camo_, style_, slv_) \
+    class classname_ { \
         model = "sns_u_bdu"; \
-        camo = camo_val; \
-        style = style_val; \
-        sleeves = slv; \
+        camo = camo_; \
+        style = style_; \
+        sleeves = slv_; \
     };
 
-#define DEFINE_U_NVA(classname, style_val, slv) \
-    class classname { \
+#define DEFINE_U_NVA(classname_, style_, slv_) \
+    class classname_ { \
         model = "sns_u_nva"; \
-        style = style_val; \
-        sleeves = slv; \
+        style = style_; \
+        sleeves = slv_; \
     };
 
-#define DEFINE_U_VC(classname, color_val, style_val, slv) \
-    class classname { \
+#define DEFINE_U_VC(classname_, color_, style_, slv_) \
+    class classname_ { \
         model = "sns_u_vc"; \
-        color = color_val; \
-        style = style_val; \
-        sleeves = slv; \
+        color = color_; \
+        style = style_; \
+        sleeves = slv_; \
     };
 
-#define DEFINE_U_ARVN(classname, camo_val, slv, tuck) \
-    class classname { \
+#define DEFINE_U_ARVN(classname_, camo_, slv_, tuck_) \
+    class classname_ { \
         model = "sns_u_arvn"; \
-        camo = camo_val; \
-        sleeves = slv; \
-        tucked = tuck; \
+        camo = camo_; \
+        sleeves = slv_; \
+        tucked = tuck_; \
     };
 
-#define DEFINE_U_DUTCH(classname, type_val) \
-    class classname { \
+#define DEFINE_U_DUTCH(classname_, type_) \
+    class classname_ { \
         model = "sns_u_dutch"; \
-        type = type_val; \
+        type = type_; \
     };
 
-#define DEFINE_U_FRENCH_F1(classname, slv) \
-    class classname { \
+#define DEFINE_U_FRENCH_F1(classname_, slv_) \
+    class classname_ { \
         model = "sns_u_french_f1"; \
-        sleeves = slv; \
+        sleeves = slv_; \
     };
 
-#define DEFINE_U_CIV_FLANNEL(classname, color_val, pants_val, slv, tuck) \
-    class classname { \
+#define DEFINE_U_CIV_FLANNEL(classname_, color_, pants_, slv_, tuck_) \
+    class classname_ { \
         model = "sns_u_civ_casual"; \
-        color = color_val; \
-        pants = pants_val; \
-        sleeves = slv; \
-        tucked = tuck; \
+        color = color_; \
+        pants = pants_; \
+        sleeves = slv_; \
+        tucked = tuck_; \
     };
 
-#define DEFINE_U_CIV_SWEATER(classname, design_val, slv) \
-    class classname { \
+#define DEFINE_U_CIV_SWEATER(classname_, design_, slv_) \
+    class classname_ { \
         model = "sns_u_civ_sweater"; \
-        design = design_val; \
-        sleeves = slv; \
+        design = design_; \
+        sleeves = slv_; \
     };
 
 
@@ -132,70 +133,69 @@
 // VEST MACROS
 // ===================================================================================================================================
 
-#define DEFINE_V_M1956(classname, loadout_val, buttpack_val, frags_val) \
-    class classname { \
+#define DEFINE_V_M1956(classname_, loadout_, buttpack_, frags_) \
+    class classname_ { \
         model = "sns_v_m1956"; \
-        loadout = loadout_val; \
-        buttpack = buttpack_val; \
-        frags = frags_val; \
+        loadout = loadout_; \
+        buttpack = buttpack_; \
+        frags = frags_; \
     };
 
-#define DEFINE_V_M1961(classname, loadout_val, buttpack_val) \
-    class classname { \
+#define DEFINE_V_M1961(classname_, loadout_, buttpack_) \
+    class classname_ { \
         model = "sns_v_m1961"; \
-        loadout = loadout_val; \
-        buttpack = buttpack_val; \
+        loadout = loadout_; \
+        buttpack = buttpack_; \
     };
 
-#define DEFINE_V_FLAK(classname, model_val, webbing_val, loadout_val) \
-    class classname { \
-        model = "sns_v_flak"; \
-        model = model_val; \
-        webbing = webbing_val; \
-        loadout = loadout_val; \
+#define DEFINE_V_FLAK(classname_, model_, webbing_, loadout_) \
+    class classname_ { \
+        model = model_; \
+        webbing = webbing_; \
+        loadout = loadout_; \
     };
 
-#define DEFINE_V_PASGT(classname, camo_val, webbing_val, loadout_val) \
-    class classname { \
+#define DEFINE_V_PASGT(classname_, camo_, webbing_, loadout_) \
+    class classname_ { \
         model = "sns_v_pasgt"; \
-        camo = camo_val; \
-        webbing = webbing_val; \
-        loadout = loadout_val; \
+        camo = camo_; \
+        webbing = webbing_; \
+        loadout = loadout_; \
     };
 
-#define DEFINE_V_LBV88(classname, webbing_val, loadout_val) \
-    class classname { \
+#define DEFINE_V_LBV88(classname_, webbing_, loadout_) \
+    class classname_ { \
         model = "sns_v_lbv88"; \
-        webbing = webbing_val; \
-        loadout = loadout_val; \
+        webbing = webbing_; \
+        loadout = loadout_; \
     };
 
-#define DEFINE_V_RBA(classname, webbing_val, loadout_val) \
-    class classname { \
+#define DEFINE_V_RBA(classname_, webbing_, loadout_) \
+    class classname_ { \
         model = "sns_v_rba"; \
-        webbing = webbing_val; \
-        loadout = loadout_val; \
+        webbing = webbing_; \
+        loadout = loadout_; \
     };
 
-#define DEFINE_V_AWS(classname, loadout_val, vest_val) \
-    class classname { \
+#define DEFINE_V_AWS(classname_, loadout_, vest_) \
+    class classname_ { \
         model = "sns_v_aws"; \
-        loadout = loadout_val; \
-        vest = vest_val; \
+        loadout = loadout_; \
+        vest = vest_; \
     };
 
-#define DEFINE_V_FAUF(classname, loadout_val, belt_val) \
-    class classname { \
+#define DEFINE_V_FAUF(classname_, loadout_, belt_) \
+    class classname_ { \
         model = "sns_v_fauf"; \
-        loadout = loadout_val; \
-        belt = belt_val; \
+        loadout = loadout_; \
+        belt = belt_; \
     };
 
-#define DEFINE_V_CHICOM(classname, type_val, style_val) \
-    class classname { \
+#define DEFINE_V_CHICOM(classname_, type_, style_) \
+    class classname_ { \
         model = "sns_v_chicom"; \
-        type = type_val; \
-        style = style_val; \
+        type = type_; \
+        style = style_; \
     };
 
 
@@ -203,37 +203,37 @@
 // HEADGEAR MACROS
 // ===================================================================================================================================
 
-#define DEFINE_H_M1(classname, type_val, cover_val, band_val, net_val, acc_val) \
-    class classname { \
+#define DEFINE_H_M1(classname_, type_, cover_, band_, net_, accessories_) \
+    class classname_ { \
         model = "sns_h_m1"; \
-        type = type_val; \
-        cover = cover_val; \
-        band = band_val; \
-        net = net_val; \
-        accessories = acc_val; \
+        type = type_; \
+        cover = cover_; \
+        band = band_; \
+        net = net_; \
+        accessories = accessories_; \
     };
 
-#define DEFINE_H_BOONIE(classname, camo_val, style_val) \
-    class classname { \
+#define DEFINE_H_BOONIE(classname_, camo_, style_) \
+    class classname_ { \
         model = "sns_h_boonie"; \
-        camo = camo_val; \
-        style = style_val; \
+        camo = camo_; \
+        style = style_; \
     };
 
-#define DEFINE_H_PATROL_CAP(classname, type_val, camo_val, style_val) \
-    class classname { \
+#define DEFINE_H_PATROL_CAP(classname_, type_, camo_, style_) \
+    class classname_ { \
         model = "sns_h_patrol"; \
-        type = type_val; \
-        camo = camo_val; \
-        style = style_val; \
+        type = type_; \
+        camo = camo_; \
+        style = style_; \
     };
 
-#define DEFINE_H_PITH(classname, camo_val, cover_val, brim_val) \
-    class classname { \
+#define DEFINE_H_PITH(classname_, camo_, cover_, brim_) \
+    class classname_ { \
         model = "sns_h_pith"; \
-        camo = camo_val; \
-        cover = cover_val; \
-        brim = brim_val; \
+        camo = camo_; \
+        cover = cover_; \
+        brim = brim_; \
     };
 
 
@@ -241,49 +241,49 @@
 // BACKPACK MACROS
 // ===================================================================================================================================
 
-#define DEFINE_B_M1941(classname, variant_val, bedroll_val, flak_val) \
-    class classname { \
+#define DEFINE_B_M1941(classname_, variant_, bedroll_, flak_) \
+    class classname_ { \
         model = "sns_b_m1941"; \
-        variant = variant_val; \
-        bedroll = bedroll_val; \
-        flak = flak_val; \
+        variant = variant_; \
+        bedroll = bedroll_; \
+        flak = flak_; \
     };
-
-#define DEFINE_B_M1968(classname, variant_val, bedroll_val, flak_val) \
-    class classname { \
+    
+#define DEFINE_B_M1968(classname_, variant_, bedroll_, flak_) \
+    class classname_ { \
         model = "sns_b_m1968"; \
-        variant = variant_val; \
-        bedroll = bedroll_val; \
-        flak = flak_val; \
+        variant = variant_; \
+        bedroll = bedroll_; \
+        flak = flak_; \
     };
 
-#define DEFINE_B_ARVN(classname, contents_val, flak_val) \
-    class classname { \
+#define DEFINE_B_ARVN(classname_, contents_, flak_) \
+    class classname_ { \
         model = "sns_b_arvn"; \
-        contents = contents_val; \
-        flak = flak_val; \
+        contents = contents_; \
+        flak = flak_; \
     };
 
-#define DEFINE_B_LIGHTWEIGHT(classname, contents_val, flak_val) \
-    class classname { \
+#define DEFINE_B_LIGHTWEIGHT(classname_, contents_, flak_) \
+    class classname_ { \
         model = "sns_b_lightweight"; \
-        contents = contents_val; \
-        flak = flak_val; \
+        contents = contents_; \
+        flak = flak_; \
     };
 
-#define DEFINE_B_TROPICAL(classname, contents_val, frame_val, flak_val) \
-    class classname { \
+#define DEFINE_B_TROPICAL(classname_, contents_, frame_, flak_) \
+    class classname_ { \
         model = "sns_b_tropical"; \
-        contents = contents_val; \
-        frame = frame_val; \
-        flak = flak_val; \
+        contents = contents_; \
+        frame = frame_; \
+        flak = flak_; \
     };
 
-#define DEFINE_B_PACKBOARD(classname, loadout_val, flak_val) \
-    class classname { \
+#define DEFINE_B_PACKBOARD(classname_, loadout_, flak_) \
+    class classname_ { \
         model = "sns_b_packboard"; \
-        loadout = loadout_val; \
-        flak = flak_val; \
+        loadout = loadout_; \
+        flak = flak_; \
     };
 
 
@@ -291,16 +291,16 @@
 // FACEWEAR MACROS (CfgGlasses)
 // ===================================================================================================================================
 
-#define DEFINE_F_BANDOLEER(classname, type_val, loadout_val, flak_val) \
-    class classname { \
+#define DEFINE_F_BANDOLEER(classname_, type_, loadout_, flak_) \
+    class classname_ { \
         model = "sns_f_bandoleer"; \
-        type = type_val; \
-        loadout = loadout_val; \
-        flak = flak_val; \
+        type = type_; \
+        loadout = loadout_; \
+        flak = flak_; \
     };
 
-#define DEFINE_F_TOWEL(classname, style_val) \
-    class classname { \
+#define DEFINE_F_TOWEL(classname_, style_) \
+    class classname_ { \
         model = "sns_f_towel"; \
-        style = style_val; \
+        style = style_; \
     };
