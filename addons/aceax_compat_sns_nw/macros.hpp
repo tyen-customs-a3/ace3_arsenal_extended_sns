@@ -93,6 +93,15 @@
         loadout = loadout_; \
     };
 
+#define DEFINE_V_FLAK(classname_, model_, webbing_, loadout_, attachments_) \
+    class classname_ { \
+        model = "sns_nw_v_flak_webbing"; \
+        flak_model = model_; \
+        webbing = webbing_; \
+        loadout = loadout_; \
+        attachments = attachments_; \
+    };
+
 // HEADGEAR
 #define DEFINE_H_PASGT(classname_, cover_, band_, scrim_, goggles_, nvg_) \
     class classname_ { \
@@ -136,10 +145,18 @@
         goggles = goggles_; \
     };
 
-#define DEFINE_B_ALICE(classname_, color_, frame_, type_) \
+#define DEFINE_H_CVC(classname_, goggles_) \
+    class classname_ { \
+        model = "sns_nw_h_cvc"; \
+        goggles = goggles_; \
+    };
+
+// BACKPACKS
+#define DEFINE_B_ALICE(classname_, camo_, frame_, loadout_, flak_) \
     class classname_ { \
         model = "sns_nw_b_alice"; \
-        color = color_; \
+        camo = camo_; \
         frame = frame_; \
-        type = type_; \
+        loadout = loadout_; \
+        flak = flak_; \
     };
