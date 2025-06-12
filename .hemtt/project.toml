@@ -1,4 +1,16 @@
 name = "ace3_arsenal_extended_sns"
-author = "the_author"
-prefix = "ace3_arsenal_extended_sns"
-mainprefix = "ace3_arsenal_extended_sns"
+author = "tyen"
+prefix = "z"
+mainprefix = "z"
+
+[version]
+major = 1
+minor = 0
+patch = 0
+build = 1
+
+[hemtt.build]
+pdrive = "require"
+
+[hemtt.check]
+pdrive = "ignore"

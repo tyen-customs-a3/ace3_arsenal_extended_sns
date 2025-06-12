@@ -1,0 +1,13 @@
+[default]
+workshop = [
+]
+
+[local]
+extends = "default"
+parameters = [
+    "-mod=C:\\Program Files (x86)\\Steam\\steamapps\\common\\Arma 3\\!Workshop\\@ACE3 Arsenal Extended - Core",
+    "-mod=C:\\Program Files (x86)\\Steam\\steamapps\\common\\Arma 3\\!Workshop\\@CBA_A3",
+    "-mod=C:\\Program Files (x86)\\Steam\\steamapps\\common\\Arma 3\\!Workshop\\@S & S",
+    "-mod=C:\\Program Files (x86)\\Steam\\steamapps\\common\\Arma 3\\!Workshop\\@S & S- New Wave",
+    "-mod=C:\\Program Files (x86)\\Steam\\steamapps\\common\\Arma 3\\!Workshop\\@ace"
+]

@@ -1,0 +1,273 @@
+#include "macros.hpp"
+
+class XtdGearInfos
+{
+    class CfgWeapons
+    {
+        // ===================================================================================================================================
+        // UNIFORMS
+        // ===================================================================================================================================
+
+        // --- US Army BDU ---
+        DEFINE_U_BDU(U_Simc_bdu_erla_blench,"US Army","M81","Standard","Full","No","No","No");
+        DEFINE_U_BDU(U_Simc_bdu_erla_blench_trop,"US Army","M81","Standard","Rolled","No","No","No");
+        DEFINE_U_BDU(U_Simc_bdu_erla_blench_nomex,"US Army","M81","Standard","Full","No","Yes","No");
+        DEFINE_U_BDU(U_simc_bdu_erla_gas_blench,"US Army","M81","Standard","Full","Yes","No","No");
+        DEFINE_U_BDU(U_simc_bdu_erla_gas_blench_trop,"US Army","M81","Standard","Rolled","Yes","No","No");
+        DEFINE_U_BDU(U_simc_bdu_erla_gas_blench_nomex,"US Army","M81","Standard","Full","Yes","Yes","No");
+        DEFINE_U_BDU(U_simc_bdu_erla_blench_desu,"US Army","DCU-6","Standard","Full","No","No","No");
+        DEFINE_U_BDU(U_simc_bdu_erla_blench_desu_trop,"US Army","DCU-6","Standard","Rolled","No","No","No");
+        DEFINE_U_BDU(U_simc_bdu_erla_blench_desu_nomex,"US Army","DCU-6","Standard","Full","No","Yes","No");
+        DEFINE_U_BDU(U_simc_bdu_erla_gas_blench_desu,"US Army","DCU-6","Standard","Full","Yes","No","No");
+        DEFINE_U_BDU(U_simc_bdu_erla_gas_blench_desu_trop,"US Army","DCU-6","Standard","Rolled","Yes","No","No");
+        DEFINE_U_BDU(U_simc_bdu_erla_gas_blench_desu_nomex,"US Army","DCU-6","Standard","Full","Yes","Yes","No");
+        DEFINE_U_BDU(U_simc_bdu_laat,"US Army","M81","Standard","Full","No","No","No");
+        DEFINE_U_BDU(U_Simc_bdu_laat_trop,"US Army","M81","Standard","Rolled","No","No","No");
+        DEFINE_U_BDU(U_simc_bdu_laat_knee,"US Army","M81","Standard","Full","No","No","Yes");
+        DEFINE_U_BDU(U_simc_bdu_laat_knee_trop,"US Army","M81","Standard","Rolled","No","No","Yes");
+        DEFINE_U_BDU(U_Simc_bdu_laat_nomex,"US Army","M81","Standard","Full","No","Yes","No");
+        DEFINE_U_BDU(U_simc_bdu_laat_nomex_knee,"US Army","M81","Standard","Full","No","Yes","Yes");
+        DEFINE_U_BDU(U_simc_bdu_laat_knee_nomex_trop,"US Army","M81","Standard","Rolled","No","Yes","Yes");
+        DEFINE_U_BDU(U_Simc_bdu_laat_gas,"US Army","M81","Standard","Full","Yes","No","No");
+        DEFINE_U_BDU(U_Simc_bdu_laat_gas_trop,"US Army","M81","Standard","Rolled","Yes","No","No");
+        DEFINE_U_BDU(U_Simc_bdu_laat_gas_nomex,"US Army","M81","Standard","Full","Yes","Yes","No");
+        DEFINE_U_BDU(U_simc_bdu_laat_gas_knee,"US Army","M81","Standard","Full","Yes","No","Yes");
+        DEFINE_U_BDU(U_simc_bdu_laat_gas_knee_trop,"US Army","M81","Standard","Rolled","Yes","No","Yes");
+        DEFINE_U_BDU(U_simc_bdu_laat_gas_knee_nomex,"US Army","M81","Standard","Full","Yes","Yes","Yes");
+        DEFINE_U_BDU(U_simc_bdu_laat_gas_knee_nomex_trop,"US Army","M81","Standard","Rolled","Yes","Yes","Yes");
+        DEFINE_U_BDU(U_Simc_bdu_laat_desu,"US Army","DCU-6","Standard","Full","No","No","No");
+        DEFINE_U_BDU(U_Simc_bdu_laat_desu_trop,"US Army","DCU-6","Standard","Rolled","No","No","No");
+        DEFINE_U_BDU(U_Simc_bdu_laat_desu_nomex,"US Army","DCU-6","Standard","Full","No","Yes","No");
+        DEFINE_U_BDU(U_simc_bdu_laat_desu_knee,"US Army","DCU-6","Standard","Full","No","No","Yes");
+        DEFINE_U_BDU(U_simc_bdu_laat_desu_knee_trop,"US Army","DCU-6","Standard","Rolled","No","No","Yes");
+        DEFINE_U_BDU(U_simc_bdu_laat_desu_nomex_knee,"US Army","DCU-6","Standard","Full","No","Yes","Yes");
+        DEFINE_U_BDU(U_simc_bdu_laat_desu_knee_nomex_trop,"US Army","DCU-6","Standard","Rolled","No","Yes","Yes");
+        DEFINE_U_BDU(U_simc_bdu_laat_desu_gas,"US Army","DCU-6","Standard","Full","Yes","No","No");
+        DEFINE_U_BDU(U_simc_bdu_laat_desu_gas_trop,"US Army","DCU-6","Standard","Rolled","Yes","No","No");
+        DEFINE_U_BDU(U_simc_bdu_laat_desu_gas_nomex,"US Army","DCU-6","Standard","Full","Yes","Yes","No");
+        DEFINE_U_BDU(U_simc_bdu_laat_desu_gas_knee,"US Army","DCU-6","Standard","Full","Yes","No","Yes");
+        DEFINE_U_BDU(U_simc_bdu_laat_desu_gas_knee_trop,"US Army","DCU-6","Standard","Rolled","Yes","No","Yes");
+        DEFINE_U_BDU(U_simc_bdu_laat_desu_gas_knee_nomex,"US Army","DCU-6","Standard","Full","Yes","Yes","Yes");
+        DEFINE_U_BDU(U_simc_bdu_laat_desu_gas_knee_nomex_trop,"US Army","DCU-6","Standard","Rolled","Yes","Yes","Yes");
+        DEFINE_U_BDU(U_Simc_DCU,"US Army","DCU-3","Standard","Full","No","No","No");
+        DEFINE_U_BDU(U_Simc_DCU_trop,"US Army","DCU-3","Standard","Rolled","No","No","No");
+        DEFINE_U_BDU(U_Simc_DCU_nomex,"US Army","DCU-3","Standard","Full","No","Yes","No");
+        DEFINE_U_BDU(U_Simc_DCU_knee,"US Army","DCU-3","Standard","Full","No","No","Yes");
+        DEFINE_U_BDU(U_Simc_DCU_knee_trop,"US Army","DCU-3","Standard","Rolled","No","No","Yes");
+        DEFINE_U_BDU(U_Simc_DCU_nomex_knee,"US Army","DCU-3","Standard","Full","No","Yes","Yes");
+        DEFINE_U_BDU(U_Simc_DCU_knee_nomex_trop,"US Army","DCU-3","Standard","Rolled","No","Yes","Yes");
+        DEFINE_U_BDU(U_simc_DCU_gas,"US Army","DCU-3","Standard","Full","Yes","No","No");
+        DEFINE_U_BDU(U_simc_DCU_gas_trop,"US Army","DCU-3","Standard","Rolled","Yes","No","No");
+        DEFINE_U_BDU(U_simc_DCU_gas_nomex,"US Army","DCU-3","Standard","Full","Yes","Yes","No");
+        DEFINE_U_BDU(U_simc_DCU_gas_knee,"US Army","DCU-3","Standard","Full","Yes","No","Yes");
+        DEFINE_U_BDU(U_simc_DCU_gas_knee_trop,"US Army","DCU-3","Standard","Rolled","Yes","No","Yes");
+        DEFINE_U_BDU(U_simc_DCU_gas_knee_nomex,"US Army","DCU-3","Standard","Full","Yes","Yes","Yes");
+        DEFINE_U_BDU(U_simc_DCU_gas_knee_nomex_trop,"US Army","DCU-3","Standard","Rolled","Yes","Yes","Yes");
+        DEFINE_U_BDU(U_simc_bdu_raid,"US Army","M81","RAID","Full","No","No","No");
+        DEFINE_U_BDU(U_Simc_bdu_raid_trop,"US Army","M81","RAID","Rolled","No","No","No");
+        DEFINE_U_BDU(U_simc_bdu_raid_knee,"US Army","M81","RAID","Full","No","No","Yes");
+        DEFINE_U_BDU(U_simc_bdu_raid_knee_trop,"US Army","M81","RAID","Rolled","No","No","Yes");
+        DEFINE_U_BDU(U_Simc_bdu_raid_nomex,"US Army","M81","RAID","Full","No","Yes","No");
+        DEFINE_U_BDU(U_simc_bdu_raid_nomex_knee,"US Army","M81","RAID","Full","No","Yes","Yes");
+        DEFINE_U_BDU(U_simc_bdu_raid_knee_nomex_trop,"US Army","M81","RAID","Rolled","No","Yes","Yes");
+        DEFINE_U_BDU(U_simc_DCU_raid,"US Army","DCU-3","RAID","Full","No","No","No");
+        DEFINE_U_BDU(U_simc_DCU_raid_trop,"US Army","DCU-3","RAID","Rolled","No","No","No");
+        DEFINE_U_BDU(U_simc_DCU_raid_knee,"US Army","DCU-3","RAID","Full","No","No","Yes");
+        DEFINE_U_BDU(U_simc_DCU_raid_knee_trop,"US Army","DCU-3","RAID","Rolled","No","No","Yes");
+        DEFINE_U_BDU(U_simc_DCU_raid_nomex,"US Army","DCU-3","RAID","Full","No","Yes","No");
+        DEFINE_U_BDU(U_simc_DCU_raid_nomex_knee,"US Army","DCU-3","RAID","Full","No","Yes","Yes");
+        DEFINE_U_BDU(U_simc_DCU_raid_knee_nomex_trop,"US Army","DCU-3","RAID","Rolled","No","Yes","Yes");
+
+        // --- USMC BDU ---
+        DEFINE_U_BDU(U_simc_bdu_rdf_MC,"USMC","ERDL-L","Standard","Full","No","No","No");
+        DEFINE_U_BDU(U_simc_bdu_rdf_MC_trop,"USMC","ERDL-L","Standard","Rolled","No","No","No");
+        DEFINE_U_BDU(U_simc_bdu_rdf_MC_tee,"USMC","ERDL-L","Tee","Rolled","No","No","No");
+        DEFINE_U_BDU(U_simc_bdu_rdf_MC_erdl,"USMC","ERDL-H","Standard","Full","No","No","No");
+        DEFINE_U_BDU(U_simc_bdu_rdf_MC_erdl_trop,"USMC","ERDL-H","Standard","Rolled","No","No","No");
+        DEFINE_U_BDU(U_simc_bdu_rdf_MC_erdl_tee,"USMC","ERDL-H","Tee","Rolled","No","No","No");
+        DEFINE_U_BDU(U_simc_bdu_rdf_MC_desu,"USMC","DCU-6","Standard","Full","No","No","No");
+        DEFINE_U_BDU(U_simc_bdu_rdf_MC_desu_trop,"USMC","DCU-6","Standard","Rolled","No","No","No");
+        DEFINE_U_BDU(U_simc_bdu_rdf_MC_desu_tee,"USMC","DCU-6","Tee","Rolled","No","No","No");
+        DEFINE_U_Simc_bdu_erla_MC,"USMC","M81","Standard","Full","No","No","No");
+        DEFINE_U_BDU(U_Simc_bdu_erla_MC_trop,"USMC","M81","Standard","Rolled","No","No","No");
+        DEFINE_U_BDU(U_Simc_bdu_erla_MC_tee,"USMC","M81","Tee","Rolled","No","No","No");
+        DEFINE_U_BDU(U_Simc_bdu_erla_MC_nomex,"USMC","M81","Standard","Full","No","Yes","No");
+        DEFINE_U_BDU(U_Simc_bdu_erla_MC_desu,"USMC","DCU-3","Standard","Full","No","No","No");
+        DEFINE_U_BDU(U_Simc_bdu_erla_MC_desu_trop,"USMC","DCU-3","Standard","Rolled","No","No","No");
+        DEFINE_U_BDU(U_Simc_bdu_erla_MC_desu_tee,"USMC","DCU-3","Tee","Rolled","No","No","No");
+        DEFINE_U_BDU(U_Simc_bdu_erla_MC_desu_nomex,"USMC","DCU-3","Standard","Full","No","Yes","No");
+        DEFINE_U_BDU(U_simc_bdu_erla_MC_mout,"USMC","T/MOUT","Standard","Full","No","No","No");
+        DEFINE_U_BDU(U_simc_bdu_erla_MC_mout_trop,"USMC","T/MOUT","Standard","Rolled","No","No","No");
+        DEFINE_U_BDU(U_Simc_bdu_erla_MC_mout_nomex,"USMC","T/MOUT","Standard","Full","No","Yes","No");
+        DEFINE_U_BDU(U_simc_bdu_eto_mc_mout,"USMC","T/MOUT","Standard","Full","No","No","No");
+        DEFINE_U_BDU(U_simc_bdu_eto_mc_mout_trop,"USMC","T/MOUT","Standard","Rolled","No","No","No");
+        DEFINE_U_BDU(U_Simc_bdu_eto_MC_mout_knee,"USMC","T/MOUT","Standard","Full","No","No","Yes");
+        DEFINE_U_BDU(U_simc_bdu_eto_mc_mout_knee_trop,"USMC","T/MOUT","Standard","Rolled","No","No","Yes");
+        DEFINE_U_BDU(U_Simc_bdu_eto_MC_mout_nomex,"USMC","T/MOUT","Standard","Full","No","Yes","No");
+        DEFINE_U_BDU(U_Simc_bdu_eto_MC_mout_knee_nomex,"USMC","T/MOUT","Standard","Full","No","Yes","Yes");
+        DEFINE_U_BDU(U_Simc_bdu_eto_MC_mout_knee_nomex_trop,"USMC","T/MOUT","Standard","Rolled","No","Yes","Yes");
+
+        // --- M-65 Jacket ---
+        DEFINE_U_JACKET(U_Simc_bdu_veldjas_m81,"M81","M81","No");
+        DEFINE_U_JACKET(U_Simc_bdu_veldjas_m81_trop,"M81","M81","No");
+        DEFINE_U_JACKET(U_Simc_bdu_veldjas_m81_gas,"M81","M81","Yes");
+        DEFINE_U_JACKET(U_Simc_bdu_veldjas_m81_gas_trop,"M81","M81","Yes");
+
+        // --- DNCE ---
+        DEFINE_U_DNCE(U_Simc_DNCE_bdu,"M81");
+        DEFINE_U_DNCE(U_Simc_DNCE_desu,"DCU-6");
+        DEFINE_U_DNCE(U_Simc_DNCE_dcu,"DCU-3");
+
+        // ===================================================================================================================================
+        // VESTS
+        // ===================================================================================================================================
+        
+        // --- PASGT ---
+        DEFINE_V_PASGT(V_Simc_vest_pasgt,"M81","None","Rifleman");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_alice,"M81","ALICE","Rifleman");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_alice_alt,"M81","ALICE","Rifleman (Alt)");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_alice_lc2,"M81","ALICE","Rifleman");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_alice_lc2_alt,"M81","ALICE","Rifleman (Alt)");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_alice_m56,"M81","ALICE","Rifleman (M56)");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_alice_etool,"M81","ALICE","Rifleman");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_alice_45,"M81","ALICE","Sidearm");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_alice_lc2_45,"M81","ALICE","Sidearm");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_alice_lc2_45_ligt,"M81","ALICE","Light");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_alice_45_ligt,"M81","ALICE","Light");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_alice_60,"M81","ALICE","MG");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_alice_lc2_60,"M81","ALICE","MG");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_alice_249,"M81","ALICE","SAW");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_nade,"M81","None","Grenadier");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_nade_lc2,"M81","ALICE","Grenadier");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_lbv_1,"M81","LBV","Rifleman");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_lbv_2,"M81","LBV","Rifleman (Alt)");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_lbv_belt_1,"M81","LBV","Rifleman");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_lbv_belt_2,"M81","LBV","Rifleman (Alt)");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_lbv_belt_45_1,"M81","LBV","Sidearm");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_lbv_belt_45_2,"M81","LBV","Sidearm (Alt)");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_desu_lbv_belt_1,"DCU-6","LBV","Rifleman");
+        DEFINE_V_PASGT(V_Simc_vest_pasgt_desu_lbv_belt_mc_1,"DCU-6","LBV","Rifleman");
+        
+        // --- LBV-88 ---
+        DEFINE_V_LBV88(V_Simc_LBV_88_alice_mc_1,"ALICE","Rifleman");
+        DEFINE_V_LBV88(V_Simc_LBV_88_alice_mc_2,"ALICE","Rifleman (Alt)");
+        DEFINE_V_LBV88(V_Simc_LBV_88_alice_45_mc_1,"ALICE","Sidearm");
+        DEFINE_V_LBV88(V_Simc_LBV_88_alice_45_mc_2,"ALICE","Sidearm (Alt)");
+        
+        // --- RBA ---
+        DEFINE_V_RBA(V_Simc_vest_RBA_mk1,"None","Rifleman");
+        DEFINE_V_RBA(V_Simc_vest_rba_mk1_alice_1,"ALICE","Rifleman");
+        DEFINE_V_RBA(V_Simc_vest_rba_mk1_alice_2,"ALICE","Rifleman (Alt)");
+        DEFINE_V_RBA(V_Simc_vest_rba_mk1_alice_45_1,"ALICE","Sidearm");
+        DEFINE_V_RBA(V_Simc_vest_rba_mk1_alice_45_2,"ALICE","Sidearm (Alt)");
+        DEFINE_V_RBA(V_Simc_vest_rba_mk1_alice_nade,"ALICE","Grenadier");
+        DEFINE_V_RBA(V_Simc_vest_rba_mk1_alice_249,"ALICE","SAW");
+        DEFINE_V_RBA(V_Simc_vest_rba_mk1_LBV,"LBV","Rifleman");
+        DEFINE_V_RBA(V_Simc_vest_rba_mk1_LBV_belt_1,"LBV","Rifleman");
+        DEFINE_V_RBA(V_Simc_vest_rba_mk1_LBV_belt_2,"LBV","Rifleman (Alt)");
+        DEFINE_V_RBA(V_Simc_vest_rba_mk1_LBV_belt_45_1,"LBV","Sidearm");
+        DEFINE_V_RBA(V_Simc_vest_rba_mk1_LBV_belt_45_2,"LBV","Sidearm (Alt)");
+        
+        // --- FAUF/AWS ---
+        DEFINE_V_FAUF(V_Simc_vest_fauf,"None","Rifleman");
+        DEFINE_V_FAUF(V_Simc_vest_fauf_2,"None","Light");
+        DEFINE_V_FAUF(V_Simc_vest_fauf_alice,"ALICE","Rifleman");
+        DEFINE_V_FAUF(V_Simc_vest_fauf_alice_45,"ALICE","Sidearm");
+        DEFINE_V_FAUF(V_Simc_vest_fauf_alice_249,"ALICE","SAW");
+        DEFINE_V_FAUF(V_Simc_vest_fauf_LBV,"LBV","Rifleman");
+        DEFINE_V_FAUF(V_Simc_vest_fauf_LBV_2,"LBV","Rifleman (Alt)");
+        DEFINE_V_FAUF(V_Simc_vest_fauf_LBV_belt,"LBV","Rifleman");
+        DEFINE_V_FAUF(V_Simc_vest_fauf_LBV_belt_45,"LBV","Sidearm");
+        DEFINE_V_AWS(V_Simc_vest_fauf_rig_1,"FAUF","Rifleman");
+        DEFINE_V_AWS(V_Simc_vest_fauf_rig_2,"FAUF","Light");
+        DEFINE_V_AWS(V_Simc_vest_fauf_rig_3,"FAUF","Rifleman (Alt)");
+        DEFINE_V_AWS(V_Simc_vest_fauf_rig_4,"FAUF","Light (Alt)");
+        DEFINE_V_AWS(V_Simc_vest_aws_rig_1,"None","Rifleman");
+        DEFINE_V_AWS(V_Simc_vest_aws_rig_2,"None","Rifleman (Alt)");
+        DEFINE_V_AWS(V_Simc_vest_aws_rig_3,"None","Light");
+        DEFINE_V_AWS(V_Simc_vest_aws_rig_4,"None","Light (Alt)");
+
+        // ===================================================================================================================================
+        // HEADGEAR
+        // ===================================================================================================================================
+
+        // --- PASGT ---
+        DEFINE_H_PASGT(H_Simc_pasgt_m81,"M81","None","None","None","No");
+        DEFINE_H_PASGT(H_Simc_pasgt_m81_b,"M81","Standard","None","None","No");
+        DEFINE_H_PASGT(H_Simc_pasgt_m81_SWDG,"M81","None","None","Down","No");
+        DEFINE_H_PASGT(H_Simc_pasgt_m81_b_SWDG,"M81","Standard","None","Down","No");
+        DEFINE_H_PASGT(H_Simc_pasgt_m81_SWDG_low,"M81","None","None","Up","No");
+        DEFINE_H_PASGT(H_Simc_pasgt_m81_SWDG_low_b,"M81","Standard","None","Up","No");
+        DEFINE_H_PASGT(H_Simc_pasgt_m81_scrim,"M81","None","Standard","None","No");
+        DEFINE_H_PASGT(H_Simc_pasgt_m81_scrim_alt,"M81","None","Standard","None","No"); // Visual only
+        DEFINE_H_PASGT(H_Simc_pasgt_m81_scrim_SWDG,"M81","None","Standard","Down","No");
+        DEFINE_H_PASGT(H_Simc_pasgt_m81_scrim_panama,"M81","None","Panama","None","No");
+        DEFINE_H_PASGT(H_Simc_pasgt_m81_nvo,"M81","None","None","None","Yes");
+        DEFINE_H_PASGT(H_Simc_pasgt_m81_nvo_strap,"M81","Strap","None","None","Yes");
+        DEFINE_H_PASGT(H_Simc_pasgt_desu,"Desert","None","None","None","No");
+        DEFINE_H_PASGT(H_Simc_pasgt_desu_b,"Desert","Standard","None","None","No");
+        DEFINE_H_PASGT(H_Simc_pasgt_dcu,"DCU","None","None","None","No");
+        DEFINE_H_PASGT(H_Simc_pasgt_dcu_b,"DCU","Standard","None","None","No");
+        
+        // --- Pro-Tec ---
+        DEFINE_H_PROTEC(H_Simc_protec_full,"Full","No","No","No","None");
+        DEFINE_H_PROTEC(H_Simc_protec_full_swdg,"Full","No","No","No","Down");
+        DEFINE_H_PROTEC(H_Simc_protec_full_swdg_low,"Full","No","No","No","Up");
+        DEFINE_H_PROTEC(H_Simc_protec_full_nvo,"Full","Yes","Yes","No","None");
+        DEFINE_H_PROTEC(H_Simc_protec_full_nvo_swdg,"Full","Yes","Yes","No","Down");
+        DEFINE_H_PROTEC(H_Simc_protec_full_nvo_swdg_low,"Full","Yes","Yes","No","Up");
+        DEFINE_H_PROTEC(H_Simc_protec_full_nvo_ir,"Full","Yes","Yes","Yes","None");
+        DEFINE_H_PROTEC(H_Simc_protec_full_nvo_ir_swdg,"Full","Yes","Yes","Yes","Down");
+        DEFINE_H_PROTEC(H_Simc_protec_full_nvo_ir_swdg_low,"Full","Yes","Yes","Yes","Up");
+        DEFINE_H_PROTEC(H_Simc_protec_half,"Half-Cut","No","No","No","None");
+        DEFINE_H_PROTEC(H_Simc_protec_half_swdg,"Half-Cut","No","No","No","Down");
+        DEFINE_H_PROTEC(H_Simc_protec_half_swdg_low,"Half-Cut","No","No","No","Up");
+        DEFINE_H_PROTEC(H_Simc_protec_half_nvo,"Half-Cut","Yes","No","No","None");
+        DEFINE_H_PROTEC(H_Simc_protec_half_nvo_swdg,"Half-Cut","Yes","No","No","Down");
+        DEFINE_H_PROTEC(H_Simc_protec_half_nvo_swdg_low,"Half-Cut","Yes","No","No","Up");
+        DEFINE_H_PROTEC(H_Simc_protec_half_nvo_ir,"Half-Cut","Yes","No","Yes","None");
+        DEFINE_H_PROTEC(H_Simc_protec_half_nvo_ir_swdg,"Half-Cut","Yes","No","Yes","Down");
+        DEFINE_H_PROTEC(H_Simc_protec_half_nvo_ir_swdg_low,"Half-Cut","Yes","No","Yes","Up");
+        DEFINE_H_PROTEC(H_Simc_protec_hs_nvo,"Half-Cut","Yes","Yes","No","None");
+        DEFINE_H_PROTEC(H_Simc_protec_hs_nvo_swdg,"Half-Cut","Yes","Yes","No","Down");
+        DEFINE_H_PROTEC(H_Simc_protec_hs_nvo_swdg_low,"Half-Cut","Yes","Yes","No","Up");
+        DEFINE_H_PROTEC(H_Simc_protec_hs_nvo_ir,"Half-Cut","Yes","Yes","Yes","None");
+        DEFINE_H_PROTEC(H_Simc_protec_hs_nvo_ir_swdg,"Half-Cut","Yes","Yes","Yes","Down");
+        DEFINE_H_PROTEC(H_Simc_protec_hs_nvo_ir_swdg_low,"Half-Cut","Yes","Yes","Yes","Up");
+
+        // --- Patrol Caps ---
+        DEFINE_H_PATROL(H_Simc_Hat_Patrol_m81,"M81");
+        DEFINE_H_PATROL(H_Simc_Hat_Patrol_desu,"Desert");
+        DEFINE_H_PATROL(H_Simc_Hat_Patrol_dcu,"DCU");
+        DEFINE_H_PATROL(H_Simc_Hat_MC_m81,"M81");
+        DEFINE_H_PATROL(H_Simc_Hat_MC_m81_desu,"Desert");
+        DEFINE_H_PATROL(H_Simc_Hat_MC_m81_dcu,"DCU");
+    };
+
+    class CfgVehicles
+    {
+        // ===================================================================================================================================
+        // BACKPACKS
+        // ===================================================================================================================================
+        DEFINE_B_ALICE(B_simc_pack_alice_0,"OD","No","Standard");
+        DEFINE_B_ALICE(B_simc_pack_alice_1,"OD","No","Standard"); // Visual
+        DEFINE_B_ALICE(B_simc_pack_alice_2,"OD","No","Standard"); // Visual
+        DEFINE_B_ALICE(B_simc_pack_alice_3,"OD","No","Standard"); // Visual
+        DEFINE_B_ALICE(B_simc_pack_alice_frame_1,"OD","Yes","Standard");
+        DEFINE_B_ALICE(B_simc_pack_alice_frame_2,"OD","Yes","Standard"); // Visual
+        DEFINE_B_ALICE(B_simc_pack_alice_frame_rajio,"OD","Yes","Radio");
+        DEFINE_B_ALICE(B_simc_pack_alice_kobel_m81,"M81 Cover","No","Standard");
+        DEFINE_B_ALICE(B_simc_pack_alice_kobel_desu,"Desert Cover","No","Standard");
+        DEFINE_B_ALICE(B_simc_pack_alice_kobel_dcu,"DCU Cover","No","Standard");
+        DEFINE_B_ALICE(B_simc_pack_alice_flak_0,"OD","No","Standard");
+        DEFINE_B_ALICE(B_simc_pack_alice_flak_1,"OD","No","Standard"); // Visual
+        DEFINE_B_ALICE(B_simc_pack_alice_flak_2,"OD","No","Standard"); // Visual
+        DEFINE_B_ALICE(B_simc_pack_alice_flak_3,"OD","No","Standard"); // Visual
+        DEFINE_B_ALICE(B_simc_pack_alice_flak_frame_1,"OD","Yes","Standard");
+        DEFINE_B_ALICE(B_simc_pack_alice_flak_frame_2,"OD","Yes","Standard"); // Visual
+        DEFINE_B_ALICE(B_simc_pack_alice_flak_frame_rajio,"OD","Yes","Radio");
+        DEFINE_B_ALICE(B_simc_pack_alice_flak_kobel_m81,"M81 Cover","No","Standard");
+        DEFINE_B_ALICE(B_simc_pack_alice_flak_kobel_desu,"Desert Cover","No","Standard");
+        DEFINE_B_ALICE(B_simc_pack_alice_flak_kobel_dcu,"DCU Cover","No","Standard");
+    };
+};
