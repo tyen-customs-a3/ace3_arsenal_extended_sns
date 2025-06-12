@@ -15,7 +15,8 @@ class CfgPatches
             "simc_uaf_88_core",
             "simc_uaf_93_core",
             "simc_mc_81_core",
-            "simc_mc_93_core"
+            "simc_mc_93_core",
+            "aceax_compat_sns"
         };
         author = "Tyen";
     };

@@ -1,4 +1,3 @@
-// ace3_arsenal_extended_sns/addons/aceax_compat_sns/macros.hpp
 /**
  * ===================================================================================================================================
  * ACE ARSENAL EXTENDED MACROS FOR S&S

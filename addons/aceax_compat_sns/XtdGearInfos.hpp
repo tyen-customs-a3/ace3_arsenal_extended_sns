@@ -1,4 +1,3 @@
-// ace3_arsenal_extended_sns/addons/aceax_compat_sns/XtdGearInfos.hpp
 #include "macros.hpp"
 
 class XtdGearInfos

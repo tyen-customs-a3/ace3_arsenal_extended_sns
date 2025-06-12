@@ -1,7 +1,7 @@
 name = "ace3_arsenal_extended_sns"
 author = "tyen"
-prefix = "z"
-mainprefix = "z"
+prefix = "aceax_compat_sns"
+mainprefix = "aceax_compat_sns"
 
 [version]
 major = 1
