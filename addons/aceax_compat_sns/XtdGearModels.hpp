@@ -1,3 +1,4 @@
+// ace3_arsenal_extended_sns/addons/aceax_compat_sns/XtdGearModels.hpp
 class XtdGearModels
 {
     class CfgWeapons
@@ -99,7 +100,7 @@ class XtdGearModels
             label = "Rain Parka";
             options[] = {"camo", "gasmask"};
             class camo {
-                values[] = {"OG-107", "ERDL Lowland", "ERDL Highland"};
+                values[] = {"TCU", "OG-107", "ERDL Lowland", "ERDL Highland"};
             };
             class gasmask {
                 values[] = {"No", "Yes"};
@@ -250,7 +251,7 @@ class XtdGearModels
             options[] = {"model", "webbing", "loadout"};
             class model { values[] = {"M1952A", "M1955", "M1969"}; };
             class webbing { values[] = {"None", "M1961", "M1967", "Bandoleer"}; };
-            class loadout { values[] = {"None", "Bandoleer", "Grenadier", "Sidearm", "MG", "Medic"}; };
+            class loadout { values[] = {"None", "Rifleman", "Bandoleer", "Grenadier", "Sidearm", "MG", "Medic"}; };
         };
 
         class sns_v_pasgt

@@ -1,3 +1,4 @@
+// ace3_arsenal_extended_sns/addons/aceax_compat_sns/macros.hpp
 /**
  * ===================================================================================================================================
  * ACE ARSENAL EXTENDED MACROS FOR S&S
@@ -198,6 +199,19 @@
         style = style_; \
     };
 
+#define DEFINE_V_FRENCH_WEBBING(classname_, type_) \
+    class classname_ { \
+        model = "sns_v_french_webbing"; \
+        type = type_; \
+    };
+
+#define DEFINE_V_DUTCH_M52(classname_, variant_, shovel_) \
+    class classname_ { \
+        model = "sns_v_dutch_m52"; \
+        variant = variant_; \
+        shovel = shovel_; \
+    };
+
 
 // ===================================================================================================================================
 // HEADGEAR MACROS
@@ -234,6 +248,26 @@
         camo = camo_; \
         cover = cover_; \
         brim = brim_; \
+    };
+
+#define DEFINE_H_FRENCH_M51(classname_, camo_, style_) \
+    class classname_ { \
+        model = "sns_h_m51"; \
+        camo = camo_; \
+        style = style_; \
+    };
+
+#define DEFINE_H_DUTCH_M53(classname_, cover_, net_) \
+    class classname_ { \
+        model = "sns_h_m53"; \
+        cover = cover_; \
+        net = net_; \
+    };
+    
+#define DEFINE_H_BERET(classname_, unit_) \
+    class classname_ { \
+        model = "sns_h_beret"; \
+        unit = unit_; \
     };
 
 
@@ -302,5 +336,31 @@
 #define DEFINE_F_TOWEL(classname_, style_) \
     class classname_ { \
         model = "sns_f_towel"; \
+        style = style_; \
+    };
+
+#define DEFINE_F_NOMEX(classname_, color_, style_, cut_) \
+    class classname_ { \
+        model = "sns_f_nomex"; \
+        color = color_; \
+        style = style_; \
+        cut = cut_; \
+    };
+
+#define DEFINE_F_SWDG(classname_, position_) \
+    class classname_ { \
+        model = "sns_f_swdg"; \
+        position = position_; \
+    };
+
+#define DEFINE_F_ILLEGAL_CANTEEN(classname_, style_) \
+    class classname_ { \
+        model = "sns_f_illegal_canteen"; \
+        style = style_; \
+    };
+
+#define DEFINE_F_GASBAG(classname_, style_) \
+    class classname_ { \
+        model = "sns_f_gasbag"; \
         style = style_; \
     };
